@@ -3,9 +3,9 @@
 
 为了巩固网络编程知识点，写了一个不带界面的多人聊天程序
 
->![](../images/演示.png)
+>![](https://github.com/rotonnn/C-S-Chat/blob/master/images/demo.png)
 #### 结构
-![](/images/chat结构.png)
+![](https://github.com/rotonnn/C-S-Chat/blob/master/images/struct.png)
 
 #### Setting
 setting.py 包含初始化套接字的参数和方法
