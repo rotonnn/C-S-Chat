@@ -18,7 +18,7 @@ if __name__ == "__main__":
             if h is s_serv:
                 print('s-SERV')
                 conn, addr = h.accept()
-                print(conn.recv(1024))
+                print(conn.recv(1024).decode('utf-8'))
                 rlst.append(conn)
             else:
                 print('s-CLI')

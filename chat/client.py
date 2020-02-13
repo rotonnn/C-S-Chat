@@ -42,7 +42,9 @@ if __name__ == "__main__":
 
     while True:
         try:
-            data = sys.stdin.readline()
+            
+            data =input()
+            
         except KeyboardInterrupt:
             s_cli.close()
             p_serv.close()
